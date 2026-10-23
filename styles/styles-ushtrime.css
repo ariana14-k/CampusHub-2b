@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    background-color: gray;
+}
+
+.event-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+#site-header {
+    background-color: orange;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+article p {
+    background-color: transparent;
+}
+
+nav > a {
+    color: pink;
+}
+
+h3 + p {
+    color: yellow;
+}
+
+
+h3 ~ p {
+    color: gray;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: navy;
+}
+
+input[type="email"] {
+    border: 1px solid blue;
+}
+
+a[target="_blank"] {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
+input:focus {
+    color: red;
+}
+
+li:first-child {
+    font-weight: 600;
+}
+
+li:last-child {
+    color: blue;
+}
+
+p {
+    background-color: red;
+}
+
+/* .event-description {
+    background-color: orange;
+} */
+
+p {
+    /* color: rgb(255, 21, 185); */
+    color: #95a832;
+    background-color: transparent;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    line-height: 1.6;
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+main .event-description {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid red;
+    margin-bottom: 16px;
+}
